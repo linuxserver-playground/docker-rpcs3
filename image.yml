@@ -17,6 +17,9 @@ upstream:
   notes:
     type: github_release
     repo: RPCS3/rpcs3-binaries-linux
+  sponsor:
+  - name: Patreon (Nekotekina)
+    url: https://www.patreon.com/Nekotekina
 
 release:
   branch: master
