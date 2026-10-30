@@ -10,6 +10,8 @@ upstream:
   version:
     type: github_release
     repo: RPCS3/rpcs3-binaries-linux
+    require_assets:
+      - asset: '_linux64\.AppImage$'
   notes:
     type: github_release
     repo: RPCS3/rpcs3-binaries-linux
